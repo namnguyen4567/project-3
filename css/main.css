@@ -166,6 +166,34 @@ padding-right:min(5%);
 @media (max-width: 999px) {
   .nav {
     display: none;
+    text-decoration: none;
+  }
+}
+.mobile-main-nav {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color:White;
+  position: absolute;
+  top: 132px;
+  left: 0;
+  right: 0;
+  color: grey;
+}
+.icon {
+  text-decoration: none;
+  color:black;
+
+}
+.mobile-main-nav a {
+  padding: 8px;
+  text-decoration: none;
+  color:black;
+}
+
+@media (min-width: 1000px) {
+  .mobile-nav-wrapper {
+    display: none;
   }
 }
 

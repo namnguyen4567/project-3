@@ -159,7 +159,7 @@ font-weight: 200;
 }
 
 .list-of-my-work a {
-  color:black;
+  color:grey;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,9 +168,13 @@ font-weight: 200;
 }
 
 .list-of-my-work a:hover {
-  background-color: black;
+border: solid;
+border-width: 1px;
+border-top: none;
+border-left:none;
+border-right:none;
   background-blend-mode: darken;
-  color: white;
+  color: black;
 }
 
 .list-of-my-work p {

@@ -24,8 +24,8 @@ img {
 }
 
 h2 {
-  font-size: 4em;
-  font-weight: 100;
+  font-size: 2em;
+  font-weight: 300;
   line-height: 1em;;
 }
 .photo-caption {
@@ -35,14 +35,16 @@ h2 {
 }
 
 .h1-landing-page {
-  color:white;
-  font-size: 5em;
-  font-weight: 500;
+  text-align: center;
+  color:orangered;
+  font-size: 3em;
+  font-weight: 700;
   margin-left: auto;
   margin-right:auto;
   padding-left: min(5%);
   padding-right:min(5%);
   line-height: 1.5em;
+  font-family: 'Delius Unicase', cursive;
 
 }
 
@@ -59,7 +61,7 @@ padding-right:min(5%);
 }
 
 .other-page-intro {
-  background:url(../img/background-other-page.jpg);
+  background:url(../img/background-other-page.jpeg);
   padding-top: 200px;
   padding-bottom: 100px;
   background-position: center;
@@ -85,7 +87,7 @@ padding-right:min(5%);
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 50px;
   margin-bottom: 200px
 }
 
@@ -102,7 +104,7 @@ padding-right:min(5%);
 }
 
 .logo {
-  width: 80px;
+  width: 150px;
   padding: 20px;
 }
 
@@ -111,6 +113,7 @@ padding-right:min(5%);
   display: flex;
   gap: 20px;
   font-weight: 500;
+  font-family: 'Delius Unicase', cursive;
 }
 
 .nav a {
@@ -122,17 +125,17 @@ padding-right:min(5%);
   text-decoration: none;
   color: black;
   transition: all ease .25s;
-  border: solid;
-  border-width: 1px;
+
 }
 
 .nav a:hover {
-  background-color: black;
-  color: White;
-  border: solid;
-  border-width: 1px;
+  background-color: red;
+  color: white;
+
+  
 
 }
+
 
 
 
@@ -202,18 +205,11 @@ padding-right:min(5%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  filter: grayscale(.5);
   text-decoration: none;
 }
 
 .list-of-my-work a:hover {
-border: solid;
-border-width: 1px;
-border-top: none;
-border-left:none;
-border-right:none;
-  background-blend-mode: darken;
-  color: black;
+  color: red;
 }
 
 .list-of-my-work p {
@@ -231,7 +227,7 @@ border-right:none;
 .section-divider {
   background-color: white;
   width: 100%;
-  height: 100px;
+  height: 120px;
 }
 
 
@@ -255,7 +251,7 @@ border-right:none;
 }
 
 .footer-section {
-  background-color: rgb(17, 17, 17);
+  background-color: #a30707;
   width: 100%;
   height: 200px;
   padding-top: 150px;
